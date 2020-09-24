@@ -14,7 +14,7 @@ echo -e "\033[33m It is recommended to use CentOS 7 installation, the following 
 echo "Recommended system : [Original] Network one-click Reinstall CentOS 7 (Official, Pure, Safe, Efficient)"
 echo "URL : https://tech.cxthhhhh.com/linux/2018/07/30/original-network-one-click-reinstall-centos-7-official-pure-safe-efficient-en.html"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "from https://tech.cxthhhhh.com - 2018/09/10 - MeowLove"
+echo "from https://tech.cxthhhhh.com - 2018/09/10 - zyings"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 
@@ -63,7 +63,7 @@ echo "--------------------------------------------------------------------------
 
 echo -e "\n"
 sudo cd /root
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/CentOS/Nux-Dextop/nux-dextop-release-0-5.el7.nux.noarch.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/CentOS/Nux-Dextop/nux-dextop-release-0-5.el7.nux.noarch.rpm --quiet
 yum install remmina remmina-plugins-* -y
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\033[32m Remmina FileZilla Firefox Already installed  is [OK] \033[0m"
@@ -73,20 +73,20 @@ echo -e "\n"
 sudo cd /root
 yum groupinstall "Development Tools" -y
 yum install libX11-devel freetype-devel zlib-devel libxcb-devel libxslt-devel libgcrypt-devel libxml2-devel gnutls-devel libpng-devel libjpeg-turbo-devel libtiff-devel gstreamer-devel dbus-devel fontconfig-devel -y
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/CentOS/Wine/wine32-release.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/CentOS/Wine/wine32-release.rpm --quiet
 yum install wine.i686 -y
 yum install wine -y
-sudo wget -O /usr/share/wine/fonts/msyh.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyh.ttc
-sudo wget -O /usr/share/wine/fonts/msyhbd.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhbd.ttc
-sudo wget -O /usr/share/wine/fonts/msyhl.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhl.ttc
-sudo wget -O /usr/share/wine/fonts/simfang.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simfang.ttf
-sudo wget -O /usr/share/wine/fonts/simhei.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simhei.ttf
-sudo wget -O /usr/share/wine/fonts/simkai.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simkai.ttf
-sudo wget -O /usr/share/wine/fonts/SIMLI.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMLI.ttf
-sudo wget -O /usr/share/wine/fonts/simsun.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simsun.ttc
-sudo wget -O /usr/share/wine/fonts/SIMYOU.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMYOU.ttf
-sudo wget -O /usr/share/wine/fonts/仿宋_GB2312.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/仿宋_GB2312.ttf
-sudo wget -O /usr/share/wine/fonts/楷体_GB2312.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/楷体_GB2312.ttf
+sudo wget -O /usr/share/wine/fonts/msyh.ttc https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyh.ttc
+sudo wget -O /usr/share/wine/fonts/msyhbd.ttc https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhbd.ttc
+sudo wget -O /usr/share/wine/fonts/msyhl.ttc https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhl.ttc
+sudo wget -O /usr/share/wine/fonts/simfang.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simfang.ttf
+sudo wget -O /usr/share/wine/fonts/simhei.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simhei.ttf
+sudo wget -O /usr/share/wine/fonts/simkai.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simkai.ttf
+sudo wget -O /usr/share/wine/fonts/SIMLI.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMLI.ttf
+sudo wget -O /usr/share/wine/fonts/simsun.ttc https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simsun.ttc
+sudo wget -O /usr/share/wine/fonts/SIMYOU.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMYOU.ttf
+sudo wget -O /usr/share/wine/fonts/仿宋_GB2312.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/仿宋_GB2312.ttf
+sudo wget -O /usr/share/wine/fonts/楷体_GB2312.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/楷体_GB2312.ttf
 useradd -m RdpUser
 echo "cxthhhhh.com
 cxthhhhh.com
@@ -97,16 +97,16 @@ echo "--------------------------------------------------------------------------
 
 echo -e "\n"
 cd /root
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/libpng12-1.2.50-10.el7.x86_64.rpm --quiet
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/mesa-libGLU-9.0.0-4.el7.x86_64.rpm --quiet
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-10.1.0.5707-1.a21.x86_64.rpm --quiet
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-fonts-1.0-1.noarch.rpm --quiet
-sudo wget -O /usr/share/fonts/mtextra.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/mtextra.ttf
-sudo wget -O /usr/share/fonts/symbol.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/symbol.ttf
-sudo wget -O /usr/share/fonts/WEBDINGS.TTF https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WEBDINGS.TTF
-sudo wget -O /usr/share/fonts/wingding.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/wingding.ttf
-sudo wget -O /usr/share/fonts/WINGDNG2.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG2.ttf
-sudo wget -O /usr/share/fonts/WINGDNG3.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG3.ttf
+rpm -Uvh --force https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/libpng12-1.2.50-10.el7.x86_64.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/mesa-libGLU-9.0.0-4.el7.x86_64.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-10.1.0.5707-1.a21.x86_64.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-fonts-1.0-1.noarch.rpm --quiet
+sudo wget -O /usr/share/fonts/mtextra.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/mtextra.ttf
+sudo wget -O /usr/share/fonts/symbol.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/symbol.ttf
+sudo wget -O /usr/share/fonts/WEBDINGS.TTF https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WEBDINGS.TTF
+sudo wget -O /usr/share/fonts/wingding.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/wingding.ttf
+sudo wget -O /usr/share/fonts/WINGDNG2.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG2.ttf
+sudo wget -O /usr/share/fonts/WINGDNG3.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG3.ttf
 sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache
@@ -149,7 +149,7 @@ echo "End to Desktop environment and Remote connection tool ! V2.0.2"
 echo -e "\033[33m Everything is ready and the system is restarting. Then you can connect via (RDP)IP:3389. \033[0m"
 echo "Normally, the [root] user is not recommended. The new user [RdpUser] has been created with the password [cxthhhhh.com]. Please change the default password as soon as possible after login."
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "from https://tech.cxthhhhh.com - 2018/09/11 - MeowLove"
+echo "from https://tech.cxthhhhh.com - 2018/09/11 - zyings"
 echo "---------------------------------------------------------------------------------------------------------------------"
 sleep 5s
 reboot

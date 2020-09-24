@@ -140,20 +140,20 @@ sleep 2s
 if [ $1 = '-CentOS' ]
 then
 	yum install sudo curl wget epel-release -y
-	sudo curl -sSL https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Main/CentOS.sh | sudo bash
+	sudo curl -sSL https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Main/CentOS.sh | sudo bash
 
 fi
 
 if [ $1 = '-Debian' ]
 then
 	apt-get install sudo curl wget -y
-	sudo curl -sSL https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Main/Debian.sh | sudo bash
+	sudo curl -sSL https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Main/Debian.sh | sudo bash
 fi
 
 if [ $1 = '-Ubuntu' ]
 then
 	apt-get install sudo curl wget -y
-	sudo curl -sSL https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Main/Ubuntu.sh | sudo bash
+	sudo curl -sSL https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Main/Ubuntu.sh | sudo bash
 fi
 
 echo "---------------------------------------------------------------------------------------------------------------------"

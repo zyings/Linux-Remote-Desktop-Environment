@@ -3,7 +3,7 @@ One-click installation of Desktop environment, RDP, Windows support, Office Tool
 
 My website: https://tech.cxthhhhh.com
 
-![image](https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Image/Demo_Picture.jpg)
+![image](https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Image/Demo_Picture.jpg)
 
 Features:
 1. Install the desktop environment and RDP remote desktop connection for your Linux (CentOS/Debian/Ubuntu ) with one click.
