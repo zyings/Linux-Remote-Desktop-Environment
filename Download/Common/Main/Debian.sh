@@ -596,14 +596,14 @@ echo "--------------------------------------------------------------------------
 echo -e "\n"
 cd /root
 # sudo wget -O ~/Libpng12-0.deb https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/Debian/libpng12-0_1.2.50-2+deb8u3_amd64.deb
-sudo dpkg -i ~/Libpng12-0.deb
+# sudo dpkg -i ~/Libpng12-0.deb
 # sudo wget -O ~/WPS-Office.deb https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office_10.1.0.5707_a21_amd64.deb
-sudo dpkg -i ~/WPS-Office.deb
+# sudo dpkg -i ~/WPS-Office.deb
 # sudo wget -O ~/WPS-Office-Fonts.deb https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-fonts_1.0_all.deb
-sudo dpkg -i ~/WPS-Office-Fonts.deb
-rm -rf ~/Libpng12-0.deb
-rm -rf ~/WPS-Office.deb
-rm -rf ~/WPS-Office-Fonts.deb
+# sudo dpkg -i ~/WPS-Office-Fonts.deb
+# rm -rf ~/Libpng12-0.deb
+# rm -rf ~/WPS-Office.deb
+# rm -rf ~/WPS-Office-Fonts.deb
 # sudo wget -O /usr/share/fonts/mtextra.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/mtextra.ttf
 # sudo wget -O /usr/share/fonts/symbol.ttf https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/symbol.ttf
 # sudo wget -O /usr/share/fonts/WEBDINGS.TTF https://raw.githubusercontent.com/zyings/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WEBDINGS.TTF
